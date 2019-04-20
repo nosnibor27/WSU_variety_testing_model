@@ -1037,54 +1037,54 @@ Year,Variety,Head_Date,Release_Status,Type,Season,Planting_Date,City,Longitude,L
 2015,idn-06-18102a,145,Experimental,sw,winter,9/4/2014,lamont,W117 49.543,N47 08.072
 2015,idn-02-29001a,145,Experimental,sw,winter,9/4/2014,lamont,W117 49.543,N47 08.072
 2015,otto-g2,149,Experimental,sw,winter,9/4/2014,lamont,W117 49.543,N47 08.072
-2015,masami,138,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,melacl+ (wa 8155),139,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,eltan,139,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars-crescent,143,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,puma,136,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,curiositycl+ (wa 8143),138,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,cara,142,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,otto,140,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,xerpha,140,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,orcf-102,136,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wb-junction,135,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,orcf-103,140,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,madsen,137,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars-selbu,141,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,jasper (wa 8169),138,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,bruehl,141,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,stephens,137,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars-amber,139,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,coda,141,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,sy 107,138,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wb-1081cl+,136,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wb1529,138,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,sy ovation,137,Released,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,otto-g2,139,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars06135-9c,140,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,otto-0w,140,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wa 8202,138,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars20060123-31c,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wa 8227,144,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars040335-9c,144,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,kxb-01,140,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wa 8225,140,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,4j0713366c,139,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,wa 8226,139,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,kxb-03,139,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ido1108dh,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,lor-092,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,kxb-02,141,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ars010679-1c,141,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,idn-06-18102a,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,or2080641,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,idn-01-10704a,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,lww10-1073,136,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,or2090473,138,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,ido1005,139,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,das 4,141,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,das 3,139,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
-2015,idn-02-29001a,137,Experimental,sw,winter,9/4/2014,lind,W118 34’1,N47 00’15.8
+2015,masami,138,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,melacl+ (wa 8155),139,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,eltan,139,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars-crescent,143,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,puma,136,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,curiositycl+ (wa 8143),138,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,cara,142,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,otto,140,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,xerpha,140,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,orcf-102,136,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wb-junction,135,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,orcf-103,140,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,madsen,137,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars-selbu,141,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,jasper (wa 8169),138,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,bruehl,141,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,stephens,137,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars-amber,139,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,coda,141,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,sy 107,138,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wb-1081cl+,136,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wb1529,138,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,sy ovation,137,Released,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,otto-g2,139,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars06135-9c,140,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,otto-0w,140,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wa 8202,138,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars20060123-31c,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wa 8227,144,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars040335-9c,144,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,kxb-01,140,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wa 8225,140,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,4j0713366c,139,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,wa 8226,139,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,kxb-03,139,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ido1108dh,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,lor-092,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,kxb-02,141,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ars010679-1c,141,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,idn-06-18102a,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,or2080641,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,idn-01-10704a,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,lww10-1073,136,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,or2090473,138,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,ido1005,139,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,das 4,141,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,das 3,139,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
+2015,idn-02-29001a,137,Experimental,sw,winter,9/4/2014,lind,W118 33.527,N47 00.323
 2015,wb-junction,143,Released,sw,winter,10/2/2014,mayview,W117 24.687,N46 37.074
 2015,orcf-102,147,Released,sw,winter,10/2/2014,mayview,W117 24.687,N46 37.074
 2015,mary,146,Released,sw,winter,10/2/2014,mayview,W117 24.687,N46 37.074
@@ -3034,54 +3034,54 @@ Year,Variety,Head_Date,Release_Status,Type,Season,Planting_Date,City,Longitude,L
 2017,xa1101 cl+,141,Experimental,sw,winter,9/13/2016,dusty,W117 48.387,N46 54.311
 2017,xa1401 cl+,144,Experimental,sw,winter,9/13/2016,dusty,W117 48.387,N46 54.311
 2017,lww14-74143,141,Experimental,sw,winter,9/13/2016,dusty,W117 48.387,N46 54.311
-2017,bobtail,144,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,curiosity cl+,149,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,mela cl+,150,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,orcf-102,146,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,resilience cl+ (wa 8187),145,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,norwest tandem (lor-334),143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui castle cl+,147,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,orcf-103,150,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui magic cl+ / ui castle cl+,144,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui palouse cl+,145,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,sy ovation,145,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,lcs artdeco,143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,orcf-101,146,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui magic cl+,143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,wb1376clp,143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui magic cl+ / wb1376clp,144,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,wa 8275 cl+,144,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,kxb-01,150,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,wa 8274 cl+,147,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ori2150031 cl+,147,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ori2150033 cl+,148,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ori2150061 cl+,144,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,xa1401 cl+,146,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,xa1101 cl+,144,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,bobtail,144,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,curiosity cl+,149,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,mela cl+,150,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,orcf-102,146,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,resilience cl+ (wa 8187),145,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,norwest tandem (lor-334),143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui castle cl+,147,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,orcf-103,150,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui magic cl+ / ui castle cl+,144,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui palouse cl+,145,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,sy ovation,145,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,lcs artdeco,143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,orcf-101,146,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui magic cl+,143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,wb1376clp,143,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ui magic cl+ / wb1376clp,144,Released,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,wa 8275 cl+,144,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,kxb-01,150,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,wa 8274 cl+,147,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ori2150031 cl+,147,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ori2150033 cl+,148,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,ori2150061 cl+,144,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,xa1401 cl+,146,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
-2017,xa1101 cl+,144,Experimental,clearfield,"trial,",10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,bobtail,144,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,curiosity cl+,149,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,mela cl+,150,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,orcf-102,146,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,resilience cl+ (wa 8187),145,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,norwest tandem (lor-334),143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui castle cl+,147,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,orcf-103,150,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui magic cl+ / ui castle cl+,144,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui palouse cl+,145,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,sy ovation,145,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,lcs artdeco,143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,orcf-101,146,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui magic cl+,143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,wb1376clp,143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui magic cl+ / wb1376clp,144,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,wa 8275 cl+,144,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,kxb-01,150,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,wa 8274 cl+,147,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ori2150031 cl+,147,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ori2150033 cl+,148,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ori2150061 cl+,144,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,xa1401 cl+,146,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,xa1101 cl+,144,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,bobtail,144,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,curiosity cl+,149,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,mela cl+,150,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,orcf-102,146,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,resilience cl+ (wa 8187),145,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,norwest tandem (lor-334),143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui castle cl+,147,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,orcf-103,150,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui magic cl+ / ui castle cl+,144,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui palouse cl+,145,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,sy ovation,145,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,lcs artdeco,143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,orcf-101,146,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui magic cl+,143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,wb1376clp,143,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ui magic cl+ / wb1376clp,144,Released,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,wa 8275 cl+,144,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,kxb-01,150,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,wa 8274 cl+,147,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ori2150031 cl+,147,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ori2150033 cl+,148,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,ori2150061 cl+,144,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,xa1401 cl+,146,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
+2017,xa1101 cl+,144,Experimental,clearfield,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
 2017,bobtail,145,Released,sw,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
 2017,otto,151,Released,sw,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
 2017,rosalyn,144,Released,sw,winter,10/7/2016,Eureka,W118 37.00,N46 18.11
@@ -3773,48 +3773,48 @@ Year,Variety,Head_Date,Release_Status,Type,Season,Planting_Date,City,Longitude,L
 2017,xa1101 cl+,149,Experimental,sw,winter,9/22/2016,st. john,W117 31.170,N47 04.846
 2017,kws 145,151,Experimental,sw,winter,9/22/2016,st. john,W117 31.170,N47 04.846
 2017,xa1401 cl+,152,Experimental,sw,winter,9/22/2016,st. john,W117 31.170,N47 04.846
-2017,bobtail,145,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,bobtail / sy assure,141,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,bobtail / norwest tandem,141,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,bobtail / sy ovation,142,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,sy ovation / lcs drive,142,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,norwest tandem / sy ovation,142,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,norwest tandem (lor-334),141,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,sy ovation,142,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,lcs drive (lww12-7105),140,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,norwest tandem / lcs drive,140,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,sy assure,140,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,sy assure / lcs drive,140,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,bobtail / wb1529,144,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,norwest tandem / sy assure,141,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,wb1529 / lcs drive,141,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,sy assure / wb1529,141,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,wb1529,143,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,norwest tandem / wb1529,143,Released,blend,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,lcs artdeco,138,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,bobtail,145,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,resilience cl+ (wa 8187),143,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,sy ovation,141,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,orcf-102,143,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,wb1376clp,142,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ui magic cl+ / wb1376clp,142,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ui magic cl+,141,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,norwest tandem (lor-334),141,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ui palouse cl+,143,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,orcf-101,143,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ui magic cl+ / ui castle cl+,142,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,orcf-103,148,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ui castle cl+,144,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,curiosity cl+,149,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,mela cl+,149,Released,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,wa 8275 cl+,144,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ori2150033 cl+,144,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,wa 8274 cl+,145,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ori2150031 cl+,143,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,kxb-01,144,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,ori2150061 cl+,142,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,xa1401 cl+,142,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
-2017,xa1101 cl+,141,Experimental,clearfield,"trial,",10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,bobtail,145,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,bobtail / sy assure,141,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,bobtail / norwest tandem,141,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,bobtail / sy ovation,142,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,sy ovation / lcs drive,142,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,norwest tandem / sy ovation,142,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,norwest tandem (lor-334),141,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,sy ovation,142,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,lcs drive (lww12-7105),140,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,norwest tandem / lcs drive,140,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,sy assure,140,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,sy assure / lcs drive,140,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,bobtail / wb1529,144,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,norwest tandem / sy assure,141,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,wb1529 / lcs drive,141,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,sy assure / wb1529,141,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,wb1529,143,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,norwest tandem / wb1529,143,Released,blend,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,lcs artdeco,138,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,bobtail,145,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,resilience cl+ (wa 8187),143,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,sy ovation,141,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,orcf-102,143,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,wb1376clp,142,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ui magic cl+ / wb1376clp,142,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ui magic cl+,141,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,norwest tandem (lor-334),141,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ui palouse cl+,143,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,orcf-101,143,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ui magic cl+ / ui castle cl+,142,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,orcf-103,148,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ui castle cl+,144,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,curiosity cl+,149,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,mela cl+,149,Released,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,wa 8275 cl+,144,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ori2150033 cl+,144,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,wa 8274 cl+,145,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ori2150031 cl+,143,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,kxb-01,144,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,ori2150061 cl+,142,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,xa1401 cl+,142,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
+2017,xa1101 cl+,141,Experimental,clearfield,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
 2017,lcs jet,140,Released,hard,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
 2017,lcs aymeric,141,Released,hard,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
 2017,sy touchstone,142,Released,hard,winter,10/6/2016,walla walla,W118 11.061,N46 03.383
@@ -4193,54 +4193,54 @@ Year,Variety,Head_Date,Release_Status,Type,Season,Planting_Date,City,Longitude,L
 2018,ido1708,150,Experimental,soft,winter,9/14/2017,creston,W118 31.731,N47 49.889
 2018,ys-205,153,Experimental,soft,winter,9/14/2017,creston,W118 31.731,N47 49.889
 2018,ido1005,154,Experimental,soft,winter,9/14/2017,creston,W118 31.731,N47 49.889
-2018,bobtail,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,lcs artdeco,140,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ui palouse cl+,145,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,sy dayton,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ui castle cl+,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ui magic cl+,140,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,orcf-102,143,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,orcf-101,143,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,norwest tandem,139,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,curiosity cl+,148,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,sy clearstone cl2,141,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,resilience cl+,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wb4623clp 1,139,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wb1376clp,141,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,brawl cl+ 1,137,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wa 8274 cl+,145,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wa 8275 cl+,142,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150033 cl+,142,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150030 cl+,142,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150031 cl+,143,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2161244 cl+,138,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2161250 cl+,139,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150061 cl+,140,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,kxb-01,144,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,bobtail,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,lcs artdeco,140,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ui palouse cl+,145,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,sy dayton,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ui castle cl+,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ui magic cl+,140,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,orcf-102,143,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,orcf-101,143,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,norwest tandem,139,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,curiosity cl+,148,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,sy clearstone cl2,141,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,resilience cl+,144,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wb4623clp 1,139,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wb1376clp,141,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,brawl cl+ 1,137,Released,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wa 8274 cl+,145,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,wa 8275 cl+,142,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150033 cl+,142,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150030 cl+,142,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150031 cl+,143,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2161244 cl+,138,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2161250 cl+,139,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,ori2150061 cl+,140,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
-2018,kxb-01,144,Experimental,clearfield,"trial,",10/11/2017,dayton,W118 03.314,N46 23.249
+2018,bobtail,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,lcs artdeco,140,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ui palouse cl+,145,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,sy dayton,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ui castle cl+,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ui magic cl+,140,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,orcf-102,143,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,orcf-101,143,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,norwest tandem,139,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,curiosity cl+,148,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,sy clearstone cl2,141,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,resilience cl+,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wb4623clp 1,139,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wb1376clp,141,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,brawl cl+ 1,137,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wa 8274 cl+,145,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wa 8275 cl+,142,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150033 cl+,142,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150030 cl+,142,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150031 cl+,143,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2161244 cl+,138,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2161250 cl+,139,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150061 cl+,140,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,kxb-01,144,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,bobtail,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,lcs artdeco,140,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ui palouse cl+,145,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,sy dayton,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ui castle cl+,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ui magic cl+,140,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,orcf-102,143,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,orcf-101,143,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,norwest tandem,139,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,curiosity cl+,148,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,sy clearstone cl2,141,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,resilience cl+,144,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wb4623clp 1,139,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wb1376clp,141,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,brawl cl+ 1,137,Released,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wa 8274 cl+,145,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,wa 8275 cl+,142,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150033 cl+,142,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150030 cl+,142,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150031 cl+,143,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2161244 cl+,138,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2161250 cl+,139,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,ori2150061 cl+,140,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
+2018,kxb-01,144,Experimental,clearfield,winter,10/11/2017,dayton,W118 03.314,N46 23.249
 2018,lcs rocket (nsa10-2196),141,Released,hard,winter,10/11/2017,dayton,W118 03.326,N46 23.545
 2018,lcs abraham,139,Released,hard,winter,10/11/2017,dayton,W118 03.326,N46 23.545
 2018,lcs jet,140,Released,hard,winter,10/11/2017,dayton,W118 03.326,N46 23.545
@@ -4403,30 +4403,30 @@ Year,Variety,Head_Date,Release_Status,Type,Season,Planting_Date,City,Longitude,L
 2018,ori2150031 cl+,141,Experimental,soft,winter,9/25/2017,dusty,W117 48.085,N46 47.911
 2018,ido1708,139,Experimental,soft,winter,9/25/2017,dusty,W117 48.085,N46 47.911
 2018,ori2150061 cl+,139,Experimental,soft,winter,9/25/2017,dusty,W117 48.085,N46 47.911
-2018,lcs artdeco,133,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,sy dayton,138,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,norwest tandem,135,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,bobtail,137,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ui magic cl+,135,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,curiosity cl+,142,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,orcf-102,139,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ui palouse cl+,137,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,sy clearstone cl2,138,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,resilience cl+,139,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ui castle cl+,138,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,wb1376clp,137,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,wb4623clp,136,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,orcf-101,139,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,brawl cl+ 1,129,Released,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,kxb-01,139,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,wa 8275 cl+,140,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ori2161250 cl+,134,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ori2150033 cl+,138,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ori2161244 cl+,133,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ori2150031 cl+,139,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,wa 8274 cl+,139,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ori2150030 cl+,138,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
-2018,ori2150061 cl+,136,Experimental,clearfield,"trial,",10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,lcs artdeco,133,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,sy dayton,138,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,norwest tandem,135,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,bobtail,137,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ui magic cl+,135,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,curiosity cl+,142,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,orcf-102,139,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ui palouse cl+,137,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,sy clearstone cl2,138,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,resilience cl+,139,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ui castle cl+,138,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,wb1376clp,137,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,wb4623clp,136,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,orcf-101,139,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,brawl cl+ 1,129,Released,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,kxb-01,139,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,wa 8275 cl+,140,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ori2161250 cl+,134,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ori2150033 cl+,138,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ori2161244 cl+,133,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ori2150031 cl+,139,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,wa 8274 cl+,139,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ori2150030 cl+,138,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
+2018,ori2150061 cl+,136,Experimental,clearfield,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
 2018,lcs rocket (nsa10-2196),134,Released,hard,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
 2018,lcs jet,134,Released,hard,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
 2018,keldin,136,Released,hard,winter,10/5/2017,Eureka,W118 37.00,N46 18.11
@@ -5572,54 +5572,54 @@ Year,Variety,Head_Date,Release_Status,Type,Season,Planting_Date,City,Longitude,L
 2018,wa 8293,147,Experimental,soft,winter,10/3/2017,st. john,W117 31.075,N47 04.961
 2018,wa 8274 cl+,148,Experimental,soft,winter,10/3/2017,st. john,W117 31.075,N47 04.961
 2018,ori2150061 cl+,152,Experimental,soft,winter,10/3/2017,st. john,W117 31.075,N47 04.961
-2018,norwest tandem,136,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,bobtail,138,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,sy dayton,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,orcf-102,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ui palouse cl+,138,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,lcs artdeco,131,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ui castle cl+,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ui magic cl+,136,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,orcf-101,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,resilience cl+,138,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,curiosity cl+,143,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,sy clearstone cl2 1,137,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wb4623clp 1,136,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,brawl cl+ 1,129,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wb1376clp,137,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150033 cl+,138,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,kxb-01,142,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150031 cl+,140,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wa 8274 cl+,141,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wa 8275 cl+,138,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150030 cl+,138,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2161250 cl+,134,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2161244 cl+,131,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150061 cl+,135,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,norwest tandem,136,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,bobtail,138,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,sy dayton,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,orcf-102,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ui palouse cl+,138,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,lcs artdeco,131,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ui castle cl+,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ui magic cl+,136,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,orcf-101,139,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,resilience cl+,138,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,curiosity cl+,143,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,sy clearstone cl2 1,137,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wb4623clp 1,136,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,brawl cl+ 1,129,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wb1376clp,137,Released,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150033 cl+,138,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,kxb-01,142,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150031 cl+,140,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wa 8274 cl+,141,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,wa 8275 cl+,138,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150030 cl+,138,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2161250 cl+,134,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2161244 cl+,131,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
-2018,ori2150061 cl+,135,Experimental,clearfield,"trial,",10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,norwest tandem,136,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,bobtail,138,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,sy dayton,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,orcf-102,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ui palouse cl+,138,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,lcs artdeco,131,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ui castle cl+,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ui magic cl+,136,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,orcf-101,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,resilience cl+,138,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,curiosity cl+,143,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,sy clearstone cl2 1,137,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wb4623clp 1,136,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,brawl cl+ 1,129,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wb1376clp,137,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150033 cl+,138,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,kxb-01,142,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150031 cl+,140,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wa 8274 cl+,141,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wa 8275 cl+,138,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150030 cl+,138,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2161250 cl+,134,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2161244 cl+,131,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150061 cl+,135,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,norwest tandem,136,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,bobtail,138,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,sy dayton,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,orcf-102,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ui palouse cl+,138,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,lcs artdeco,131,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ui castle cl+,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ui magic cl+,136,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,orcf-101,139,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,resilience cl+,138,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,curiosity cl+,143,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,sy clearstone cl2 1,137,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wb4623clp 1,136,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,brawl cl+ 1,129,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wb1376clp,137,Released,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150033 cl+,138,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,kxb-01,142,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150031 cl+,140,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wa 8274 cl+,141,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,wa 8275 cl+,138,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150030 cl+,138,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2161250 cl+,134,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2161244 cl+,131,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
+2018,ori2150061 cl+,135,Experimental,clearfield,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
 2018,lcs rocket (nsa10-2196),134,Released,hard,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
 2018,lcs evina,140,Released,hard,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
 2018,lcs aymeric,134,Released,hard,winter,10/4/2017,walla walla,W118 14.162,N46 07.057
