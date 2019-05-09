@@ -7,7 +7,7 @@
 '''
 
 ## 2. Model Specifications
-'''r
+```r
      [,1]                       [,2]                       [,3]                      [,4]                     
  [1,] "Dayton_winter_2015"       "Creston_winter_2016"      "Lind_winter_2017"        "Lind_winter_2018"       
  [2,] "Connell_winter_2015"      "Dayton_winter_2016"       "Lind_spring_2017"        "Lind_spring_2018"       
@@ -34,6 +34,6 @@
 [23,] "Almira_spring_2016"       "Dusty_winter_2017"        "Farmington_winter_2018"  NA                       
 [24,] "Colton_winter_2016"       "Eureka_winter_2017"       "Lamont_winter_2018"      NA                       
 [25,] "Connell_winter_2016"      "Fairfield_winter_2017"    "Lamont_spring_2018"      NA         
-'''r
+```
 ## 3. Model output
 
