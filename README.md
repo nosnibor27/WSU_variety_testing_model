@@ -2,11 +2,18 @@
 
 ## 1. Loading and processing the data
 
-'''r
+```r
+df = read.csv(file = "WSU_variety_testing_2015_2018.csv", stringsAsFactors = FALSE)
 
-'''
+N <- nrow(df)
 
-## 2. Model Specifications
+df$City <- str_to_title(df$City)
+
+df$unique <- paste0(df$City,"_",df$Season,"_",df$Year)
+```
+
+To visualize all unique combinations of location, season, and year we can print a matrix using `matrix(c(unique(df$unique),rep(NA,9)),25,4)`. In the printout you can see
+
 ```r
      [,1]                       [,2]                       [,3]                      [,4]                     
  [1,] "Dayton_winter_2015"       "Creston_winter_2016"      "Lind_winter_2017"        "Lind_winter_2018"       
@@ -35,5 +42,37 @@
 [24,] "Colton_winter_2016"       "Eureka_winter_2017"       "Lamont_winter_2018"      NA                       
 [25,] "Connell_winter_2016"      "Fairfield_winter_2017"    "Lamont_spring_2018"      NA         
 ```
-## 3. Model output
+
+## The model
+
+```r
+data_list_1 <- list(gdd = df$gdd_s,
+                    town = df$City_f,
+                    year = df$Year_f,
+                    season = df$Season_f)
+
+test_model_1 <-  map2stan(
+  alist(
+    gdd ~ dnorm(mu,sigma),
+    mu <- a + a_season[season] + a_town[town] + a_year[year],
+    a_season[season] ~ dnorm(0,sigma_season),
+    a_town[town] ~ dnorm(0,sigma_town),
+    a_year[year] ~ dnorm(0,sigma_year),
+    a ~ dnorm(0,0.5),
+    sigma_town ~ dexp(0.5),
+    sigma_season ~ dexp(0.5),
+    sigma_year ~ dexp(0.5),
+    sigma <- dexp(0.5)
+  ) ,
+  data=data_list_1,
+  warmup=500,
+  iter=1000,
+  chains=4,
+  cores=4,
+  control = list(adapt_delta = 0.99,max_treedepth=15),
+  verbose = TRUE
+) 
+```
+
+Print a summary usins `precis(test_model_1,depth=2)`.
 
