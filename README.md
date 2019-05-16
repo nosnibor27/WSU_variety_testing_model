@@ -1,6 +1,12 @@
 # Attempting to calibrate a wheat model using planting and heading dates from WSU's Variety Testing Program
 
-## 1. Loading and processing the data
+## 1. Background
+
+I have another repository wherein I adapt a wheat model to subset daily climate data by developmental stages. I can use the resulting index locations to calculate values such as average relative humidity during tillering or total rainfall during grain fill. The purpose of all the indexing is realized when combining the wheat model with the daily output of global climate models to forecast weather conditions during different developmental stages under climate change. The original motivation was to forecast Fusarium head blight risk by evaluating if weather conditions during flowering were expected to become more hot and humid under climate change for a particular location in the continental United States
+
+The issue is that the wheat model has several input parameters and they are currently set to the default recommended values. 
+
+## 2. Loading and processing the data
 
 ```r
 df = read.csv(file = "WSU_variety_testing_2015_2018.csv", stringsAsFactors = FALSE)
@@ -43,7 +49,7 @@ To visualize all unique combinations of location, season, and year we can print 
 [25,] "Connell_winter_2016"      "Fairfield_winter_2017"    "Lamont_spring_2018"      NA         
 ```
 
-## The model
+## 3. The model
 
 ```r
 data_list_1 <- list(gdd = df$gdd_s,
@@ -74,5 +80,8 @@ test_model_1 <-  map2stan(
 ) 
 ```
 
-Print a summary usins `precis(test_model_1,depth=2)`.
+## 4. Making sense of the output
+
+## 5. Running the CERES-Wheat model with updated phyllochrons
+
 
