@@ -83,7 +83,7 @@ test_model_1 <-  map2stan(
 ## 4. Making sense of the output
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WW_phenology_forecaster/master/plots/Pullman_winter.png" width="1200" height="780" alt="data dump"/>
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/phy_map_winter.png" width="1200" height="800" alt="data dump"/>
 </p>
 
 ## 5. Running the CERES-Wheat model with updated phyllochrons
