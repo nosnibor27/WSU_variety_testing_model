@@ -1,24 +1,24 @@
-# Attempting to calibrate a wheat model using planting and heading dates from WSU's Variety Testing Program
+# WSU_variety_testing_model
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/Pullman_winter.png" alt="data dump"/>
+</p>
 
 ## 1. Background
 
-I have another repository wherein I adapt a wheat model to subset daily climate data by developmental stages. I can use the resulting index locations to calculate values such as average relative humidity during tillering or total rainfall during grain fill. The purpose of all the indexing is realized when combining the wheat model with the daily output of global climate models to forecast weather conditions during different developmental stages under climate change. The original motivation was to forecast Fusarium head blight risk by evaluating if weather conditions during flowering were expected to become more hot and humid under climate change for a particular location in the continental United States
+This repository has all the code and data from the [WSU Variety Testing Program](http://smallgrains.wsu.edu/variety/) used to estimate 24 location-specific parameters to use instead of the defaults in the CERES-Wheat model. I have [another repository](https://github.com/nosnibor27/WHEAT_phenology_forecaster) where I use the CERES-Wheat model to subset daily climate data by developmental stage. This is performed by calculating the number of days needed to accumulate enough thermal time to progress to the next stage. Thermal time is measured in *growing degree-days* (GDD) which is very similar to summing daily average temperatures.
 
-The issue is that the wheat model has several input parameters and they are currently set to the default recommended values. 
+The CERES-Wheat model needs a *phyllochron* input parameter to determine the number of GDD needed for each stage. I've been using a default value of 100 GDD, and figured that the WSU variety testing reports had anough information publicly available for me to tinker with.
+
+The information I pulled from the WSU variety testing reports was a planting date, a heading date, and GPS coordinates. There is code to query the appropriate grid in the [gritMET/METDATA](http://www.climatologylab.org/gridmet.html) dataset and download daily maximum and minimum temperature for the period of record (2015-2018) and calculate total GDD for a given range. I did not start collecting my climate data this way, originally I used [ClimEngine](https://clim-engine.appspot.com/) which is a wonderful tool to gather the same information through the browser.
+
+The data was fed into a multilevel model, which may be a fancy way of saying that I assigned a unique parameter for each location, year, and season and let the computer sort out the probabilities. If you are interested in the more technical aspects you can check my [first repository](https://github.com/nosnibor27/PHYTO) where I used the same approach to better understand sources of variability in noisy fungal count data across acres, fields, and seasons.
+
+The result is now I can use 183 GDD as a phyllochron when forecasting for Pullman, WA. I have coefficients for 24 towns, but I've only used a small subset of the total variety testing data available. The model is scalable to new data, and estimates can change given new information.
 
 ## 2. Loading and processing the data
 
-```r
-df = read.csv(file = "WSU_variety_testing_2015_2018.csv", stringsAsFactors = FALSE)
-
-N <- nrow(df)
-
-df$City <- str_to_title(df$City)
-
-df$unique <- paste0(df$City,"_",df$Season,"_",df$Year)
-```
-
-To visualize all unique combinations of location, season, and year we can print a matrix using `matrix(c(unique(df$unique),rep(NA,9)),25,4)`. In the printout you can see
+The code is commented and begins by importing `WSU_variety_testing_2015_2018.csv` and doing some string manipulation to capitalize town names and convert the latitude and longitude into a decimal degrees. There is data from 91 unique combinations of location, season, and year which we can print a matrix using `matrix(c(unique(df$unique),rep(NA,9)),25,4)`. In the printout you can see which PDFs were used
 
 ```r
      [,1]                       [,2]                       [,3]                      [,4]                     
@@ -48,8 +48,9 @@ To visualize all unique combinations of location, season, and year we can print 
 [24,] "Colton_winter_2016"       "Eureka_winter_2017"       "Lamont_winter_2018"      NA                       
 [25,] "Connell_winter_2016"      "Fairfield_winter_2017"    "Lamont_spring_2018"      NA         
 ```
+There is also code for manipulating dates, downloading data from NetCDF files, calculating a sum, and preparing lists of data for the multilevel model.
 
-## 3. The model
+## 3. Model Equation
 
 ```r
 data_list_1 <- list(gdd = df$gdd_s,
@@ -82,6 +83,8 @@ test_model_1 <-  map2stan(
 
 ## 4. Making sense of the output
 
+I can sample from the posterior distribution of samples from the multilevel model to estimate what likely phyllochron values would be expected for different locations. The remaining code details who I made the following maps, which show all the towns sampled and their respective phyllochron. I should mention that it is technically only the posterior mean, and that I have a whole distribution of phyllochron values as well. An example of a publishing results from more of the posterior distribution can be found in my [first repository](https://github.com/nosnibor27/PHYTO). 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/phy_map_winter.png" alt="data dump"/>
 </p>
@@ -90,20 +93,3 @@ test_model_1 <-  map2stan(
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/phy_map_spring.png" alt="data dump"/>
 </p>
 
-## 5. Running the CERES-Wheat model with updated phyllochrons
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/Pullman_winter.png" alt="data dump"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/Endicott_winter.png" alt="data dump"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/Pullman_spring.png" alt="data dump"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/Endicott_spring.png" alt="data dump"/>
-</p>
