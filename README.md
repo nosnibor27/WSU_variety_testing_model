@@ -52,9 +52,7 @@ There is also code for manipulating dates, downloading data from NetCDF files, c
 
 ## 3. Model Equation
 
-The code for specifying the multilevel model using the `rethinking` package in R is attached below. The model can be referred to as "varying intercepts", and the "multilevel" or "hierarchical" term in the model is `a`. The parameters for each unique year, town, and season are modelled as offsets from `a`. The rest of the model specifies prior distributions. The code is translated into a format which can be utilized by [Stan]() to perform [Hamiltonian Monte Carlo](). At the bottom are parameters for the Markov chain, which in this case results in 5000 total samples collected across 4 corees after a warmup-period of 1000 interations. The result is a list of 5000 values for a given parameter, the frequency of which corresponds to their relative plausibility given the data.
-
-Essentially, I am using a computer like a bookmaker to calculate odds given the data.
+The code for specifying the multilevel model using the `rethinking` package in R is attached below. The model can be referred to as "varying intercepts", and the "multilevel" or "hierarchical" term in the model is `a`. The parameters for each unique year, town, and season are modelled as offsets from `a`. The rest of the model specifies prior distributions. The code is translated into a format which can be utilized by [Stan](https://discourse.mc-stan.org/) to perform [Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434). At the bottom are parameters for the Markov chain, which in this case results in 5000 total samples collected across 4 corees after a warmup-period of 1000 interations. The result is a list of 5000 values for a given parameter, the frequency of which corresponds to their relative plausibility given the data.
 
 ```r
 test_model_1 <-  map2stan(
@@ -85,7 +83,7 @@ test_model_1 <-  map2stan(
 
 ## 4. Making sense of the output
 
-I can sample from the posterior distribution of samples from the multilevel model to estimate what likely phyllochron values would be expected for different locations. The remaining code details how I made the following maps, which show all the towns sampled and their respective phyllochron. I should mention that it is technically only the posterior mean, and that I have a whole distribution of phyllochron values as well. An example of a publishing results from more of the posterior distribution can be found in my [first repository](https://github.com/nosnibor27/PHYTO). 
+I can sample from the posterior distribution of samples from the multilevel model to estimate what likely phyllochron values would be expected for different locations. The remaining code details how I made the following maps, which show all the towns sampled and their respective phyllochron. I should mention that it is technically only the posterior mean, and that I have a whole distribution of phyllochron values as well. An example of a publishing results from more of the posterior distribution can be found in my [first repository](https://github.com/nosnibor27/PHYTO). Click on the images below for a larger map.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/phy_map_winter.png" alt="data dump"/>
