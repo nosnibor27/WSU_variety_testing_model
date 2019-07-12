@@ -1,7 +1,7 @@
 # WSU_variety_testing_model
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/Pullman_winter.png" alt="data dump"/>
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/post_site_model_comparison.png" alt="data dump"/>
 </p>
 
 ## 1. Background
