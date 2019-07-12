@@ -9,7 +9,7 @@ Subsetting daily climate data is performed by calculating the number of days nee
 The CERES-Wheat model needs a `phyllochron` input parameter to determine the number of GDD needed for each stage. I've been using a default value of 100 GDD, and figured that the WSU variety testing reports had anough information publicly available for me to tinker with. The result is a map of `phyllochron` values below, which can be used with my [other repository](https://github.com/nosnibor27/WHEAT_phenology_forecaster) to provide more informed estimates of weather conditions during wheat developmental stages under climate change. The `phyllochron` is printed in red for winter wheat and blue for spring wheat.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phyllochron_ma.png" alt="data dump"/>
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phyllochron_map.png" alt="data dump"/>
 </p>
 
  The information I pulled from the WSU variety testing reports was a planting date, a heading date, and GPS coordinates. There is code to query the appropriate grid in the [gritMET/METDATA](http://www.climatologylab.org/gridmet.html) dataset and download daily maximum and minimum temperature for the period of record (2015-2018) and calculate total GDD for a given range. I did not start collecting my climate data this way, originally I used [ClimEngine](https://clim-engine.appspot.com/) which is a wonderful tool to gather the same information through the browser.
