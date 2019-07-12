@@ -4,6 +4,22 @@
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/post_site_param_model_comparison.png" alt="data dump"/>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phy_map_full_dataset.png" alt="data dump"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phy_map_measurement_error.png" alt="data dump"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/marginal_year_plot.png" alt="data dump"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/year_plot.png" alt="data dump"/>
+</p>
+
 ## 1. Background
 
   This repository has all the code and data from the [WSU Variety Testing Program](http://smallgrains.wsu.edu/variety/) used to estimate 24 location-specific parameters for the CERES-Wheat model. I have [another repository](https://github.com/nosnibor27/WHEAT_phenology_forecaster) where I use the CERES-Wheat model to subset daily climate data by developmental stage. This is performed by calculating the number of days needed to accumulate enough thermal time to progress to the next stage. Thermal time is measured in *growing degree-days* (GDD) which is very similar to summing daily average temperatures.
@@ -84,12 +100,3 @@ test_model_1 <-  map2stan(
 ## 4. Making sense of the output
 
 I can sample from the posterior distribution of samples from the multilevel model to estimate what likely phyllochron values would be expected for different locations. The remaining code details how I made the following maps, which show all the towns sampled and their respective phyllochron. I should mention that it is technically only the posterior mean, and that I have a whole distribution of phyllochron values as well. An example of a publishing results from more of the posterior distribution can be found in my [first repository](https://github.com/nosnibor27/PHYTO). Click on the images below for a larger map.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/phy_map_winter.png" alt="data dump"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/plots/phy_map_spring.png" alt="data dump"/>
-</p>
-
