@@ -2,9 +2,11 @@
 
 ## 1. Summary
 
-This repository has all the code and data collected from the [WSU Variety Testing Program](http://smallgrains.wsu.edu/variety/)  to estimate 24 location-specific parameters for the CERES-Wheat model. I have [another repository](https://github.com/nosnibor27/WHEAT_phenology_forecaster) where I can use the CERES-Wheat model to subset daily climate data by developmental stage, for any location within the continental United States. This is performed by calculating the number of days needed to accumulate enough thermal time to progress to the next stage. Thermal time is measured in *growing degree-days* (GDD) which is very similar to summing daily average temperatures.
+This repository has all the code and data collected from the [WSU Variety Testing Program](http://smallgrains.wsu.edu/variety/)  to estimate 24 location-specific parameters for the CERES-Wheat model. I have [another repository](https://github.com/nosnibor27/WHEAT_phenology_forecaster) where I can use the CERES-Wheat model to subset daily climate data by developmental stage 
 
-The CERES-Wheat model needs a *phyllochron* input parameter to determine the number of GDD needed for each stage. I've been using a default value of 100 GDD, and figured that the WSU variety testing reports had anough information publicly available for me to tinker with. The result is a map of phyllochron values below, which can be used with my other repository.
+Subsetting daily climate data is performed by calculating the number of days needed to accumulate enough thermal time to progress to the next stage. Thermal time is measured in *growing degree-days* (GDD) which is very similar to summing daily average temperatures. This is the same approach to having an income column in $/day and calculating how many days it would take to save up enough money for a major purchase.
+
+The CERES-Wheat model needs a *phyllochron* input parameter to determine the number of GDD needed for each stage. I've been using a default value of 100 GDD, and figured that the WSU variety testing reports had anough information publicly available for me to tinker with. The result is a map of phyllochron values below, which can be used with my [other repository](https://github.com/nosnibor27/WHEAT_phenology_forecaster) to provide more informed estimates of weather conditions during wheat developmental stages under climate change.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phy_map_full_dataset.png" alt="data dump"/>
