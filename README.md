@@ -18,100 +18,14 @@ The data was fed into a multilevel model, which may be a fancy way of saying tha
 
 I also tested the modelling approach with the full dataset and a summarized version as well. I also include more analyses at the end describing the trade-offs to be considered when using more of the data that is available from the WSU Variety Testing Program.
 
-## 2. Loading and processing the data
-
-The code is commented and begins by importing `WSU_variety_testing_2015_2018.csv` and doing some string manipulation to capitalize town names and convert the latitude and longitude into a decimal degrees. There is data from 91 unique combinations of location, season, and year.
-
-I can print the names of all 90 location-years with `matrix(c(unique(df$unique),rep(NA,9)),25,4)`. In the printout you can see which PDFs were used in the multilevel model. There is additional data on the WSU Vriety Testing website, but it will take additional time to incorporate into an appropriate format. As it currently stands, the full dataset has 5729 observations. I also tested the same modelling equation using just the means and standard deviations of the 91 location years below.
-
-```r
-     [,1]                       [,2]                       [,3]                      [,4]                     
- [1,] "Dayton_winter_2015"       "Creston_winter_2016"      "Lind_winter_2017"        "Lind_winter_2018"       
- [2,] "Connell_winter_2015"      "Dayton_winter_2016"       "Lind_spring_2017"        "Lind_spring_2018"       
- [3,] "Lamont_winter_2015"       "Dayton_spring_2016"       "Mayview_winter_2017"     "Mayview_winter_2018"    
- [4,] "Pullman_winter_2015"      "Fairfield_winter_2016"    "Plaza_spring_2017"       "Moses Lake_winter_2018" 
- [5,] "Ritzville_winter_2015"    "Farmington_spring_2016"   "Pullman_winter_2017"     "Pasco_winter_2018"      
- [6,] "Walla Walla_winter_2015"  "Farmington_winter_2016"   "Pullman_spring_2017"     "Plaza_spring_2018"      
- [7,] "Almira_spring_2015"       "Horse Heaven_spring_2016" "Reardan_winter_2017"     "Pullman_winter_2018"    
- [8,] "Dayton_spring_2015"       "Lamont_winter_2016"       "Ritzville_winter_2017"   "Pullman_spring_2018"    
- [9,] "Endicott_spring_2015"     "Lind_winter_2016"         "St. John_winter_2017"    "Reardan_winter_2018"    
-[10,] "Farmington_spring_2015"   "Lind_spring_2016"         "Walla Walla_winter_2017" "Reardan_spring_2018"    
-[11,] "Horse Heaven_spring_2015" "Mayview_spring_2016"      "Almira_winter_2018"      "Ritzville_winter_2018"  
-[12,] "Lamont_spring_2015"       "Plaza_spring_2016"        "Anatone_winter_2018"     "St. Andrews_winter_2018"
-[13,] "Mayview_spring_2015"      "Pullman_spring_2016"      "Colton_winter_2018"      "St. John_spring_2018"   
-[14,] "Pullman_spring_2015"      "Reardan_spring_2016"      "Connell_winter_2018"     "St. John_winter_2018"   
-[15,] "St. John_spring_2015"     "St. John_spring_2016"     "Creston_winter_2018"     "Walla Walla_winter_2018"
-[16,] "Almira_winter_2015"       "St. John_winter_2016"     "Dayton_winter_2018"      "Walla Walla_spring_2018"
-[17,] "Colton_winter_2015"       "Walla Walla_winter_2016"  "Dayton_spring_2018"      NA                       
-[18,] "Dusty_winter_2015"        "Anatone_winter_2017"      "Dusty_winter_2018"       NA                       
-[19,] "Lind_winter_2015"         "Colton_winter_2017"       "Eureka_winter_2018"      NA                       
-[20,] "Mayview_winter_2015"      "Connell_winter_2017"      "Fairfield_spring_2018"   NA                       
-[21,] "St. John_winter_2015"     "Creston_winter_2017"      "Fairfield_winter_2018"   NA                       
-[22,] "Almira_winter_2016"       "Dayton_spring_2017"       "Farmington_spring_2018"  NA                       
-[23,] "Almira_spring_2016"       "Dusty_winter_2017"        "Farmington_winter_2018"  NA                       
-[24,] "Colton_winter_2016"       "Eureka_winter_2017"       "Lamont_winter_2018"      NA                       
-[25,] "Connell_winter_2016"      "Fairfield_winter_2017"    "Lamont_spring_2018"      NA         
-```
-There is also code for manipulating dates, downloading data from NetCDF files, calculating a sum, and preparing lists of data for the multilevel model.
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/post_site_param_model_comparison.png" alt="data dump"/>
-</p>
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phy_map_measurement_error.png" alt="data dump"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/marginal_year_plot.png" alt="data dump"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/year_plot.png" alt="data dump"/>
-</p>
-
-
-## 2. Loading and processing the data
-
-The code is commented and begins by importing `WSU_variety_testing_2015_2018.csv` and doing some string manipulation to capitalize town names and convert the latitude and longitude into a decimal degrees. There is data from 91 unique combinations of location, season, and year which we can print as a matrix using `matrix(c(unique(df$unique),rep(NA,9)),25,4)`. In the printout you can see which PDFs were used in the multilevel model
-
-```r
-     [,1]                       [,2]                       [,3]                      [,4]                     
- [1,] "Dayton_winter_2015"       "Creston_winter_2016"      "Lind_winter_2017"        "Lind_winter_2018"       
- [2,] "Connell_winter_2015"      "Dayton_winter_2016"       "Lind_spring_2017"        "Lind_spring_2018"       
- [3,] "Lamont_winter_2015"       "Dayton_spring_2016"       "Mayview_winter_2017"     "Mayview_winter_2018"    
- [4,] "Pullman_winter_2015"      "Fairfield_winter_2016"    "Plaza_spring_2017"       "Moses Lake_winter_2018" 
- [5,] "Ritzville_winter_2015"    "Farmington_spring_2016"   "Pullman_winter_2017"     "Pasco_winter_2018"      
- [6,] "Walla Walla_winter_2015"  "Farmington_winter_2016"   "Pullman_spring_2017"     "Plaza_spring_2018"      
- [7,] "Almira_spring_2015"       "Horse Heaven_spring_2016" "Reardan_winter_2017"     "Pullman_winter_2018"    
- [8,] "Dayton_spring_2015"       "Lamont_winter_2016"       "Ritzville_winter_2017"   "Pullman_spring_2018"    
- [9,] "Endicott_spring_2015"     "Lind_winter_2016"         "St. John_winter_2017"    "Reardan_winter_2018"    
-[10,] "Farmington_spring_2015"   "Lind_spring_2016"         "Walla Walla_winter_2017" "Reardan_spring_2018"    
-[11,] "Horse Heaven_spring_2015" "Mayview_spring_2016"      "Almira_winter_2018"      "Ritzville_winter_2018"  
-[12,] "Lamont_spring_2015"       "Plaza_spring_2016"        "Anatone_winter_2018"     "St. Andrews_winter_2018"
-[13,] "Mayview_spring_2015"      "Pullman_spring_2016"      "Colton_winter_2018"      "St. John_spring_2018"   
-[14,] "Pullman_spring_2015"      "Reardan_spring_2016"      "Connell_winter_2018"     "St. John_winter_2018"   
-[15,] "St. John_spring_2015"     "St. John_spring_2016"     "Creston_winter_2018"     "Walla Walla_winter_2018"
-[16,] "Almira_winter_2015"       "St. John_winter_2016"     "Dayton_winter_2018"      "Walla Walla_spring_2018"
-[17,] "Colton_winter_2015"       "Walla Walla_winter_2016"  "Dayton_spring_2018"      NA                       
-[18,] "Dusty_winter_2015"        "Anatone_winter_2017"      "Dusty_winter_2018"       NA                       
-[19,] "Lind_winter_2015"         "Colton_winter_2017"       "Eureka_winter_2018"      NA                       
-[20,] "Mayview_winter_2015"      "Connell_winter_2017"      "Fairfield_spring_2018"   NA                       
-[21,] "St. John_winter_2015"     "Creston_winter_2017"      "Fairfield_winter_2018"   NA                       
-[22,] "Almira_winter_2016"       "Dayton_spring_2017"       "Farmington_spring_2018"  NA                       
-[23,] "Almira_spring_2016"       "Dusty_winter_2017"        "Farmington_winter_2018"  NA                       
-[24,] "Colton_winter_2016"       "Eureka_winter_2017"       "Lamont_winter_2018"      NA                       
-[25,] "Connell_winter_2016"      "Fairfield_winter_2017"    "Lamont_spring_2018"      NA         
-```
-There is also code for manipulating dates, downloading data from NetCDF files, calculating a sum, and preparing lists of data for the multilevel model.
-
 ## 3. Model Equation
 
-The code for specifying the multilevel model using the `rethinking` package in R is attached below. The model can be referred to as "varying intercepts", and the "multilevel" or "hierarchical" term in the model is `a`. The parameters for each unique year, town, and season are modelled as offsets from `a`. The rest of the model specifies prior distributions. The code is translated into a format which can be utilized by [Stan](https://discourse.mc-stan.org/) to perform [Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434). At the bottom are parameters for the Markov chain, which in this case results in 5000 total samples collected across 4 corees after a warmup-period of 1000 interations. The result is a list of 5000 values for a given parameter, the frequency of which corresponds to their relative plausibility given the data.
+The code for specifying the multilevel model using the `rethinking` package in R is attached below. The model can be referred to as "varying intercepts", and the "multilevel" or "hierarchical" term in the model is `a`. The parameters for each unique year, town, and season are modelled as offsets from `a`. The rest of the model specifies prior distributions. The code is translated into a format which can be utilized by [Stan](https://discourse.mc-stan.org/) to perform [Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434). At the bottom are parameters for the Markov chain, which in this case results in 10000 total samples collected across 4 corees after a warmup-period of 1000 interations. The result is a list of 10000 values for a given parameter, the frequency of which corresponds to their relative plausibility given the data.
+
+The data has not been standardized, and the prior for `a` is a normal distribution with a mean of 1500 and standard deviation of 300 GDD. This is approximately the mean and standard deviation of all 5729 observations (1528.38 ± 358.92 GDD). This keeps all the rsults in the appropriate units and simplifies downstream calculations while making the results more intuitive.
 
 ```r
+
 test_model_1 <-  map2stan(
   alist(
     gdd ~ dnorm(mu,sigma),
@@ -119,25 +33,50 @@ test_model_1 <-  map2stan(
     a_season[season] ~ dnorm(0,sigma_season),
     a_town[town] ~ dnorm(0,sigma_town),
     a_year[year] ~ dnorm(0,sigma_year),
-    a ~ dnorm(0,1),
-    sigma_town ~ dexp(1),
-    sigma_season ~ dexp(1),
-    sigma_year ~ dexp(1),
-    sigma <- dexp(1)
+    a ~ dnorm(1500,300),
+    sigma_town ~ dexp(0.01),
+    sigma_season ~ dexp(0.01),
+    sigma_year ~ dexp(0.01),
+    sigma <- dexp(0.01)
   ) ,
-  data=list(gdd = df$gdd_s,
+  data=list(gdd = df$gdd,
             town = df$City_f,
             year = df$Year_f,
             season = df$Season_f),
   warmup=1000,
-  iter=2250,
+  iter=3500,
   chains=4,
   cores=4,
-  control = list(adapt_delta = 0.99,max_treedepth=15),
+  control = list(adapt_delta = 0.95,max_treedepth=14),
   verbose = TRUE
 ) 
 ```
+I was curious to see if specifying a measurement error model with only the 91 unique location years could give similar answers as using the full dataset. There are many more years worth of data available from WSU which could be included in the analyses, and other university extension programs across the country could potentially have similar records. There are model comparisons below, and while the measurement error model runs faster the parameters for each location differ across models.
 
-## 4. Making sense of the output
+I can sample from the posterior distribution of samples from the multilevel model to estimate what likely phyllochron values would be expected for different locations. The remaining code details how I made the following maps, which show all the towns sampled and their respective phyllochron. I should mention that it is technically only the posterior mean, and that I have a whole distribution of phyllochron values as well. An example of a publishing results from more of the posterior distribution can be found in my [first repository](https://github.com/nosnibor27/PHYTO).
 
-I can sample from the posterior distribution of samples from the multilevel model to estimate what likely phyllochron values would be expected for different locations. The remaining code details how I made the following maps, which show all the towns sampled and their respective phyllochron. I should mention that it is technically only the posterior mean, and that I have a whole distribution of phyllochron values as well. An example of a publishing results from more of the posterior distribution can be found in my [first repository](https://github.com/nosnibor27/PHYTO). Click on the images below for a larger map.
+A winter wheat phyllochron map using the measurment error model is below. The results are roughly equivalent as when using the full dataset above.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/phy_map_measurement_error.png" alt="data dump"/>
+</p>
+
+## 4. Model comparison
+
+The marginal distribution of GDD differences by town is less when utilizing the measurement error model compared to the full dataset. I have mapped the posterior distribution of all 24 location parameters across both models below. The width along each axis is proportional to the standard deviation. There is a greater variability in the estimates when using the measurement error model, and the magnitude of the effects are greater when using the full dataset.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/post_site_param_model_comparison.png" alt="data dump"/>
+</p>
+
+The multilevel model is a function of heterogenous intercepts, of which location was not the only cluster. The standard deviation in GDD for location parameters was ~90 GDD while the standard deviation in year parameters was ~14 GDD. There is more variance across years than across locations. This can be visualized by plotting the predictited standard deviation in GDD as a radius onto the above figure. The width of the green band is proportional to the standard deviation, and the ellipse shape is due to differences across models.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/marginal_year_plot.png" alt="data dump"/>
+</p>
+
+The marginal distribution of GDD for each year in the dataset is below.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/year_plot.png" alt="data dump"/>
+</p>
