@@ -69,7 +69,7 @@ The marginal distribution of GDD differences by town is less when utilizing the 
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/post_site_param_model_comparison.png" alt="data dump"/>
 </p>
 
-The multilevel model is a function of heterogenous intercepts, of which location was not the only cluster. The standard deviation in GDD for location parameters was ~90 GDD while the standard deviation in year parameters was ~14 GDD. There is more variance across years than across locations. This can be visualized by plotting the predictited standard deviation in GDD as a radius onto the above figure. The width of the green band is proportional to the standard deviation, and the ellipse shape is due to differences across models.
+The multilevel model is a function of heterogenous intercepts, of which location was not the only cluster. The standard deviation in GDD for location parameters was ~90 GDD while the standard deviation in year parameters was ~140 GDD. There is more variance across years than across locations. This can be visualized by plotting the predictited standard deviation in GDD as a radius onto the above figure. The width of the green band is proportional to the standard deviation, and the ellipse shape is due to differences across models.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nosnibor27/WSU_variety_testing_model/master/marginal_year_plot.png" alt="data dump"/>
