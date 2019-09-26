@@ -22,7 +22,7 @@ I also tested the modelling approach with the full dataset and a summarized vers
 
 The code for specifying the multilevel model using the `rethinking` package in R is attached below. The model can be referred to as "varying intercepts", and the "multilevel" or "hierarchical" term in the model is `a`. The parameters for each unique year, town, and season are modelled as offsets from `a`. The rest of the model specifies prior distributions. The code is translated into a format which can be utilized by [Stan](https://discourse.mc-stan.org/) to perform [Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434). At the bottom are parameters for the Markov chain, which in this case results in 10000 total samples collected across 4 corees after a warmup-period of 1000 interations. The result is a list of 10000 values for a given parameter, the frequency of which corresponds to their relative plausibility given the data.
 
-The data has not been standardized, and the prior for `a` is a normal distribution with a mean of 1500 and standard deviation of 300 GDD. This is approximately the mean and standard deviation of all 5729 observations (1528.38 ± 358.92 GDD). This keeps all the rsults in the appropriate units and simplifies downstream calculations while making the results more intuitive.
+The data has not been standardized, and the prior for `a` is a normal distribution with a mean of 1500 and standard deviation of 300 GDD. This is approximately the mean and standard deviation of all 5729 observations (1528.38 ± 358.92 GDD). This keeps all the results in the appropriate units and simplifies downstream calculations while making the results more intuitive.
 
 ```r
 
